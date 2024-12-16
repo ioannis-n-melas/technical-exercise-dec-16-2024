@@ -24,15 +24,19 @@ pip install -r requirements.txt
 ## Configuration
 
 - Set the parameters in the `src/config.yaml` file: 
-- Set the `OPENAI_API_KEY` environment variable in the `.env` file
+- Set the `OPENAI_API_KEY` environment variable in the `.env` file (if you want to use GPT-3.5-turbo)
 
 ## Running the code
 
-Run the code using
+First navigate to the `src` directory and run the code using
 
 ```bash
-python src/main.py
+python extract_requirements.py
 ```
+
+The following files will be created:
+- `results/extracted_requirements.csv`
+- `logs/logs.txt`
 
 ## Testing
 

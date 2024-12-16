@@ -43,3 +43,17 @@
 2024-12-16 22:19:34,641 - INFO - Simulating LLM summaries
 2024-12-16 22:19:34,733 - INFO - Writing summaries to ../results/summaries.csv
 2024-12-16 22:19:34,738 - INFO - Summaries written successfully
+2024-12-16 22:33:19,264 - INFO - Config: {'env_file': '../.env', 'data_dir': '../data', 'results_dir': '../results', 'logs_dir': '../logs', 'corpus_file': 'regulations.txt', 'summaries_file': 'extracted_requirements.csv', 'logs_file': 'logs.txt', 'llm_model': 'TextRank', 'delimiter': '\n\n'}
+2024-12-16 22:33:19,264 - INFO - Reading corpus from ../data/regulations.txt
+2024-12-16 22:33:19,264 - INFO - Splitting corpus into sections
+2024-12-16 22:33:19,264 - INFO - Number of sections: 8
+2024-12-16 22:33:19,264 - INFO - Simulating LLM summaries
+2024-12-16 22:33:19,362 - INFO - Writing summaries to ../results/extracted_requirements.csv
+2024-12-16 22:33:19,368 - INFO - Summaries written successfully
+2024-12-16 22:36:00,343 - INFO - Config: {'env_file': '../.env', 'data_dir': '../data', 'results_dir': '../results', 'logs_dir': '../logs', 'corpus_file': 'regulations.txt', 'summaries_file': 'extracted_requirements.csv', 'logs_file': 'logs.txt', 'llm_model': 'TextRank', 'delimiter': '\n\n'}
+2024-12-16 22:36:00,343 - INFO - Reading corpus from ../data/regulations.txt
+2024-12-16 22:36:00,343 - INFO - Splitting corpus into sections
+2024-12-16 22:36:00,343 - INFO - Number of sections: 8
+2024-12-16 22:36:00,343 - INFO - Simulating LLM summaries
+2024-12-16 22:36:00,441 - INFO - Writing summaries to ../results/extracted_requirements.csv
+2024-12-16 22:36:00,443 - INFO - Summaries written successfully
