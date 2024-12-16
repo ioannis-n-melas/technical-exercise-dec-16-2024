@@ -1,0 +1,20 @@
+# config.yaml
+
+# environment variables
+env_file: "../.env"
+
+# data directories
+data_dir: "../data"
+results_dir: "../results"
+logs_dir: "../logs"
+
+# data files
+corpus_file: "regulations.txt"
+summaries_file: "summaries.csv"
+logs_file: "logs.txt"
+
+# llm model
+llm_model: "TextRank" # or "gpt-3.5-turbo"
+
+# delimiter for splitting the corpus into sections
+delimiter: "\n\n"
