@@ -10,7 +10,7 @@ logs_dir: "../logs"
 
 # data files
 corpus_file: "regulations.txt"
-summaries_file: "summaries.csv"
+summaries_file: "extracted_requirements.csv"
 logs_file: "logs.txt"
 
 # llm model
